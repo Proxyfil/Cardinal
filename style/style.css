@@ -1,0 +1,134 @@
+body{
+	background-color: #161616;
+	margin: 0;
+	border-bottom: #262626 0.3vh solid;
+	z-index: -99;
+}
+.is-left-bar{
+	background-color: #161616;
+	width: 29vh;
+	height: 100vh;
+	float: left;
+	color: #f0f0f0;
+	font-family: Verdana;
+	border-right: #262626 0.3vh solid;
+	position:relative;
+	transition: 1s;
+	margin-left: 0vh !important;
+	text-align: center;
+}
+.is-main{
+	color: #ffffff;
+	font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	margin-left: 2vh;
+	text-align: center;
+	margin: 0;
+	font-size: 5vh;
+	margin-top: 0.5vh;
+	margin-left: 0.8vh;
+}
+.is-widget{
+	text-align: center;
+	height: 4vh;
+	padding-top: 1vh;
+	margin: 0;
+	font-size: 2.5vh;
+	transition: 1s;
+	margin-left: 0vh !important;
+}
+.is-widget:hover{
+	cursor: pointer;
+	padding-left: 3vh;
+}
+.is-no-deco{
+	text-decoration: none;
+}
+h4{
+	margin-bottom: 0;
+}
+header{
+	margin-bottom: 4vh;
+	text-align: center;
+}
+.is-twitter:hover{
+	color:#43b4ff ;
+}
+.is-twitch:hover{
+	color:#bd42db ;
+}
+#is-burger{
+	width: 4vh;
+	padding: 1vh;
+	border: #161616 0.1vh solid;
+	border-radius: 0.5vh;
+	position:relative;
+	transition: 1s;
+	margin-left: 0vh !important;
+	background-color: #161616;
+}
+#is-burger:hover{
+	background-color: #212121;
+	border: #212121 0.1vh solid;
+	cursor: pointer;
+}
+h4{
+	margin: 0;
+	font-family: Verdana;
+}
+button{
+	background-color: inherit;
+	border: none;
+}
+.hide{
+	position:relative;
+	transition: 1s;
+	margin-left: -30vh !important;
+}
+.showmenu{
+	position:relative;
+	transition: 1s;
+	margin-left: 60vh !important;
+}
+ul{
+	padding-left: 0;
+}
+.twittermenu{
+	position: absolute;
+	left: -30vh;
+	transition: 1s;
+	color: #ffffff;
+	z-index: -1;
+	float: left;
+	width: auto;
+	margin-top: 5vh;
+	border: #43b4ff 0.1vh solid;
+	padding: 1vh;
+	background-color: #161616;
+}
+.twitchmenu{
+	position:absolute;
+	left: -30vh;
+	transition: 1s;
+	color: #ffffff;
+	z-index: -1;
+	float: left;
+	width: auto;
+	margin-top: 5vh;
+	background-color: #212121;
+	border: #bd42bd 0.1vh solid;
+	padding: 1vh;
+	background-color: #161616;
+}
+#is-widget-movable{
+	z-index: -10;
+	left: 30vh;
+	position: absolute;
+	padding: 100px;
+}
+.is-widget-header{
+	height: 3vh;
+	background-color: #f0f0f0;
+	border-radius: 1vh;
+	z-index: -9;
+	cursor: move;
+}
