@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "gridstack": "^4.0.3",
+    "jquery": "^3.6.0"
+  }
+}
